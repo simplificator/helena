@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :question, class: Helena::Question do
-    sequence(:question_text) { |n| "Question #{n}, #{Faker::Lorem.words(3).join(' ')}?" }
+    sequence(:question_text) { |n| "Question #{n}, #{Faker::Lorem.words(number: 3).join(' ')}?" }
     sequence(:code) { |n| "x#{n}" }
     question_group
 

@@ -1,4 +1,4 @@
-require File.expand_path('boot', __dir__)
+require_relative 'boot'
 
 # Pick the frameworks you want:
 require 'action_controller/railtie'
