@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    helena (2.1.0)
+    helena (3.0.0)
       mongoid
       mongoid-simple-tags
       mongoid-tree
@@ -106,7 +106,7 @@ GEM
       railties (>= 5.0.0)
     faker (2.14.0)
       i18n (>= 1.6, < 2)
-    ffi (1.13.1)
+    ffi (1.14.2)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     i18n (1.8.5)
@@ -323,4 +323,4 @@ DEPENDENCIES
   simplecov
 
 BUNDLED WITH
-   2.1.4
+   2.2.3
